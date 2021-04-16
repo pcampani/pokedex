@@ -1,0 +1,45 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+	header {
+		padding: 1em;
+		background-color: dodgerblue;
+		text-align: center;
+		color: white;
+	}
+	.pokemon, .pokedex {
+		margin: 2em 0 0 2em;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.pokemon {
+		width: 800px;
+	}
+	.pokedex {
+		width: 300px;
+		border: 5px solid dodgerblue;
+		height: 500px;
+	}
+	img {
+		cursor: pointer;
+		background-color: antiquewhite;
+		margin: .5em;
+		border-radius: 5px;
+		box-shadow: 3px 3px 3px black;
+	}
+	img:hover {
+		box-shadow: 5px 5px 3px black;
+	}
+	.pokedex {
+		padding: 1em;
+		text-align: center;
+	}
+	.pokedex h2 {
+		margin-top: 1em;
+		color: dodgerblue;
+	}
